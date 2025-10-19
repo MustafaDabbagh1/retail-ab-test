@@ -1,0 +1,39 @@
+{
+  "columns": [
+    {
+      "name": "session_id",
+      "type": "string",
+      "description": "Unique session id"
+    },
+    {
+      "name": "user_id",
+      "type": "string",
+      "description": "User identifier"
+    },
+    {
+      "name": "variant",
+      "type": "string",
+      "description": "'control' or 'test'"
+    },
+    {
+      "name": "event_name",
+      "type": "string",
+      "description": "Event type (view, add_to_cart, purchase)"
+    },
+    {
+      "name": "event_timestamp",
+      "type": "string",
+      "description": "YYYY-MM-DD HH:MM:SS"
+    },
+    {
+      "name": "aov",
+      "type": "float",
+      "description": "Order value if purchase occurred; else 0.0"
+    },
+    {
+      "name": "purchased",
+      "type": "int",
+      "description": "1 if purchase, else 0"
+    }
+  ]
+}
